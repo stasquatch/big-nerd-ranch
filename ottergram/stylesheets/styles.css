@@ -49,11 +49,11 @@ a {
   max-width: 120px;
   border: 1pt solid rgb(100%, 100%, 100%);
   border: 1pt solid rgba(100%, 100%, 100%, 0.8);
-  transition: transform 133ms ease-in-out;
+  transition: transform 333ms ease-in-out;
 }
 
 .thumbnail-item:hover {
-  transform: scale(1.2);
+  transform: scale(1.05);
 }
 
 .thumbnail-list {
@@ -64,7 +64,7 @@ a {
   list-style: none;
   padding: 20px;
   white-space: nowrap;
-  overflow-x: auto;
+  overflow: auto;
 }
 
 .thumbnail-image {
@@ -73,9 +73,10 @@ a {
 }
 
 .thumbnail-title {
+  font-family: Sansita, sans-serif;
   display: block;
   margin: 0;
-  padding: 4px 10px;
+  padding: 5px 10px 7px 10px;
   background: rgb(96, 125, 139);
   color: rgb(202, 238, 255);
   font-size: 18px;
@@ -107,9 +108,9 @@ a {
   position: absolute;
   bottom: -16px;
   left: 4px;
-  font-family: airstreamregular;
+  font-family: sansita, sans-serif;;
   color: white;
-  text-shadow: rgba(0, 0, 0, 0.9) 1px 2px 9px;
+  text-shadow: rgba(0, 0, 0, 1) 1px 2px 9px;
   font-size: 40px;
 }
 
