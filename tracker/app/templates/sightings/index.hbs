@@ -1,0 +1,15 @@
+<div class="row">
+  {{#each model as |sighting|}}
+    <div class="col-xs-12 col-sm-3 text-center">
+      <div class="media well">
+        <div class="caption">
+          {{#if sighting.location}}
+            <h3>{{sighting.location}} - {{sighting.sightedAt}}</h3>
+          {{else}}
+            <h3 class="text-danger">Bogus Sighting</h3>
+          {{/if}}
+        </div><!--caption-->
+      </div><!--media well-->
+    </div><!--col-->
+  {{/each}}
+</div><!--row-->
