@@ -4,7 +4,8 @@
       <div class="media well">
         <div class="caption">
           {{#if sighting.location}}
-            <h3>{{sighting.location}} - {{sighting.sightedAt}}</h3>
+            <h3>{{sighting.location}}</h3>
+            <p>{{moment-from sighting.sightedAt}}</p>
           {{else}}
             <h3 class="text-danger">Bogus Sighting</h3>
           {{/if}}
